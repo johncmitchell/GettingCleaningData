@@ -29,17 +29,19 @@ The original feature list was not in alignment with tidy data principles and con
 3.  Run the run_analysis.R file, which will clean the data and produce the .txt file of the tidy data
 
 ###Cleaning of the data
-1. The cleaning file does the following:
-2. Reads in the feature names
-3. Reads in the data for the activity labels, the subjects, and feature data
-4. Binds together the 3 sets (subject, activity, and measurements)
-5. Binds together the test and train sets of data
-6. Subsets only measurements that include mean or std measurements
-7. Applies names to activities (like "walking", "laying", etc)
-8. Cleans up measurement labels
-9. Groups and summarizes all measurements by Subject (1 - 6) and activity
+The cleaning file does the following:
 
+1. Reads in the feature names
+2. Reads in the data for the activity labels, the subjects, and feature data
+3. Binds together the 3 sets (subject, activity, and measurements)
+4. Binds together the test and train sets of data
+5. Subsets only measurements that include mean or std measurements
+6. Applies names to activities (like "walking", "laying", etc)
+7. Cleans up measurement labels
+8. Groups and summarizes all measurements by Subject (1 - 6) and activity
+9. Writes the tidy data table to a file
 
+Below is the link to the readMe file which details how the script accomplishes this.
 . [https://github.com/johncmitchell/GettingCleaningData/blob/master/README.md]()
 
 ##Description of the variables in the tiny_data.txt file
