@@ -40,7 +40,7 @@ The original feature list was not in alignment with tidy data principles and con
 9. Groups and summarizes all measurements by Subject (1 - 6) and activity
 
 
-. [link to the readme document that describes the code in greater detail]()
+. [https://github.com/johncmitchell/GettingCleaningData/blob/master/README.md]()
 
 ##Description of the variables in the tiny_data.txt file
 
